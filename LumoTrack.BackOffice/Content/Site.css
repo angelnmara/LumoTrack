@@ -1,0 +1,225 @@
+﻿.login {
+    width: 100%;
+    height: 100%;
+    background: url(images/Login-Background.png)  center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+.cover-login {
+    width: 100%;
+    height: 100%;
+   
+}
+
+.cont-login {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    width: 400px;
+    height: 220px;
+    margin: -100px 0 0 -200px;
+}
+
+.logo-login {
+    padding-bottom: 5px;
+    text-align: center !important;
+}
+
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.btn-login {
+    color: #ffffff;
+    background-color: #b5261e;
+    border-color: #b5261e;
+}
+
+.btn-login:hover,
+    .btn-login.hover {
+        color: white;
+        background-color: #57101f;
+        border-color: #57101f;
+    }
+
+ .btn-login:focus {
+        background-color: #57101f;
+        border-color: #57101f;
+        color: white;
+    }
+
+.btn-cancel {
+    color: #000000;
+    background-color: #ffffff;
+    border-color: #000000;
+}
+
+    .btn-cancel:hover,
+    .btn-cancel.hover {
+        color: black;
+    }
+
+.hyperlink {
+    color: #3366BB
+}
+
+.body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+
+/* Set padding to keep content from hitting the edges */
+.body-content-login {
+    width: 100%;
+    min-height: 100%;
+   
+    /*height: 100%;*/
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+.material-switch > input[type="checkbox"] {
+    display: none;
+}
+
+.material-switch > label {
+    cursor: pointer;
+    height: 0px;
+    position: relative;
+    width: 40px;
+}
+
+    .material-switch > label::before {
+        background: rgb(0, 0, 0);
+        box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
+        border-radius: 8px;
+        content: '';
+        height: 16px;
+        position: absolute;
+        opacity: 0.3;
+        transition: all 0.4s ease-in-out;
+        width: 40px;
+    }
+
+    .material-switch > label::after {
+        background: rgb(255, 255, 255);
+        border-radius: 16px;
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+        content: '';
+        height: 24px;
+        left: -4px;
+        position: absolute;
+        top: -4px;
+        transition: all 0.3s ease-in-out;
+        width: 24px;
+    }
+
+.material-switch > input[type="checkbox"]:checked + label::before {
+    background: inherit;
+    opacity: 0.5;
+}
+
+.material-switch > input[type="checkbox"]:checked + label::after {
+    background: inherit;
+    left: 20px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 30%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+@keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+    .close:hover,
+    .close:focus {
+        color: #000;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+.modal-header {
+    
+    background-color: white;
+    color: black;
+}
+
+.modal-body {
+    padding: 2px 16px;
+}

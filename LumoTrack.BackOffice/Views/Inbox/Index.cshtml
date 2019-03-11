@@ -1,0 +1,102 @@
+﻿@model IEnumerable<LumoTrack.DTO.InboxDTO>
+
+@{
+    ViewBag.Title = "Index";
+}
+<div style="display:flex;  align-items:center;margin-top: 10px;margin-bottom: 55px;">
+    <img src="~/Content/images/Message.png" style="max-width: 40px;margin:5px;height: auto;width:100%;" alt="" />
+    <span style="color:#b5261e;font-size:30px;font-weight: bold;">Buzón</span>
+
+</div>
+
+<table class="table">
+    <tr style="background-color:#b5261e;color:white">
+        <th>
+            Id
+        </th>
+        <th style="min-width:230px" >
+            Camión
+        </th>
+        <th style="min-width:150px">
+            Fecha de creación
+        </th>
+        <th style="min-width:250px">
+            Mensaje del usuario
+        </th>
+        <th style="min-width:150px">
+            Fecha de respuesta
+        </th>
+        <th style="min-width:250px">
+            Respuesta
+        </th>
+        <th>
+            Atendido
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TruckName)
+            </td>
+            <td>
+                @item.CreationDate.Date.ToString("dd/MMM/yyyy")
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Message)
+            </td>
+            @if (item.Response != null)
+            {
+                <td>
+                    @if (item.ResponseDate.HasValue)
+                    {
+                        @item.ResponseDate.Value.Date.ToString("dd/MMM/yyyy")
+                    }
+
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Response)
+                </td>
+                <td >
+                    <div class="material-switch">
+                        <input class="form-control check-box" checked name="Important" value="true" type="checkbox" />
+                        <label for="Important" class="label-primary"></label>
+                    </div>
+                </td>
+
+                <td></td>
+            }
+            else
+            {
+                <td></td>
+                <td></td>
+                <td >
+                    <div class="material-switch">
+                        <input class="form-control check-box" name="Important" value="true" type="checkbox" />
+                        <label for="Important" class="label-primary"></label>
+                    </div>
+                </td>
+                <td>
+                    @Html.ActionLink("Responder", "Edit", new { id = item.Id }, htmlAttributes: new { @class = "hyperlink" })
+                </td>
+            }
+
+        </tr>
+    }
+
+</table>
+
+@section Scripts {
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('ul.nav.navbar-nav').find('a[href="' + location.pathname + '"]')
+                .closest('li').addClass('active');
+        });
+    </script>
+}

@@ -1,0 +1,88 @@
+﻿@model IEnumerable<LumoTrack.DTO.NotificationDTO>
+
+@{
+    ViewBag.Title = "Notificaciones";
+}
+<div style="display:flex;  align-items:center;margin-top: 10px;margin-bottom: 5px;">
+    <img src="~/Content/images/Notification.png" style="max-width: 45px;margin:5px;height: auto;width:100%;" alt="" />
+    <span style="color:#b5261e;font-size:30px;font-weight: bold;">Avisos</span>
+
+</div>
+
+<div style="margin:5px 0 10px;text-align:right ">
+    <button id="buttonId" type="button" class="btn btn-login btn-md">
+        <span class="glyphicon glyphicon-plus"></span> Nuevo aviso
+    </button>
+</div>
+
+<table class="table">
+    <tr style="background-color:#b5261e;color:white">
+        <th>
+            Id
+        </th>
+        <th>
+            Título
+        </th>
+        <th>
+            Importante
+        </th>
+        <th>
+            Mensaje
+        </th>
+        <th>
+            Fecha de notificación
+        </th>
+        <th>
+            Fecha de vencimiento
+        </th>
+        <th>
+            Fecha de creación
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Title)
+            </td>
+            <td style="text-align:center">
+                @Html.DisplayFor(modelItem => item.Important)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Message)
+            </td>
+            <td>
+                @item.NotificationDate.Date.ToString("dd/MMM/yyyy")
+            </td>
+            <td>
+                @item.ExpiryDate.Date.ToString("dd/MMM/yyyy")
+            </td>
+            <td>
+                @item.CreationDate.Date.ToString("dd/MMM/yyyy")
+            </td>
+            <td style="text-align:center">
+                @Html.ActionLink("Editar", "Edit", new { id = item.Id }) |
+                @Html.ActionLink("Eliminar", "Delete", new { id = item.Id })
+            </td>
+        </tr>
+    }
+
+</table>
+
+
+
+@section Scripts {
+
+    <script type="text/javascript">
+    $('#buttonId').click(function () {
+        document.location = '@Url.Action("Create","Notification")';
+        });
+
+
+    </script>
+}

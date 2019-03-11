@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AB94F493-DF7F-49CD-BD7B-B6434055FCCF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LumoTrack.Repository</RootNamespace>
+    <AssemblyName>LumoTrack.Repository</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Core, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Core.2.2.2\lib\net45\Microsoft.AspNet.Identity.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.EntityFramework, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.EntityFramework.2.2.2\lib\net45\Microsoft.AspNet.Identity.EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="zorbek.essentials.data, Version=1.2.4.1, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Zorbek.Essentials.Data.1.2.4.1\lib\zorbek.essentials.data.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="LumoTrackContext.cs" />
+    <Compile Include="Migrations\201810302355278_Initial_migration.cs" />
+    <Compile Include="Migrations\201810302355278_Initial_migration.Designer.cs">
+      <DependentUpon>201810302355278_Initial_migration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201810311811443_user_name.cs" />
+    <Compile Include="Migrations\201810311811443_user_name.Designer.cs">
+      <DependentUpon>201810311811443_user_name.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201810312319459_title_notification.cs" />
+    <Compile Include="Migrations\201810312319459_title_notification.Designer.cs">
+      <DependentUpon>201810312319459_title_notification.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201811012256142_inbox-add-model.cs" />
+    <Compile Include="Migrations\201811012256142_inbox-add-model.Designer.cs">
+      <DependentUpon>201811012256142_inbox-add-model.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201811012335519_inbox_users.cs" />
+    <Compile Include="Migrations\201811012335519_inbox_users.Designer.cs">
+      <DependentUpon>201811012335519_inbox_users.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201811090050377_nullable_datetime.cs" />
+    <Compile Include="Migrations\201811090050377_nullable_datetime.Designer.cs">
+      <DependentUpon>201811090050377_nullable_datetime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201811152000024_add-devices-table.cs" />
+    <Compile Include="Migrations\201811152000024_add-devices-table.Designer.cs">
+      <DependentUpon>201811152000024_add-devices-table.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201811152019333_key_guid.cs" />
+    <Compile Include="Migrations\201811152019333_key_guid.Designer.cs">
+      <DependentUpon>201811152019333_key_guid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201812051938369_addin_timezone_to_device.cs" />
+    <Compile Include="Migrations\201812051938369_addin_timezone_to_device.Designer.cs">
+      <DependentUpon>201812051938369_addin_timezone_to_device.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201901100040456_add-name-lastname.cs" />
+    <Compile Include="Migrations\201901100040456_add-name-lastname.Designer.cs">
+      <DependentUpon>201901100040456_add-name-lastname.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201902120833176_device-type.cs" />
+    <Compile Include="Migrations\201902120833176_device-type.Designer.cs">
+      <DependentUpon>201902120833176_device-type.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201902121852066_rename-device-id.cs" />
+    <Compile Include="Migrations\201902121852066_rename-device-id.Designer.cs">
+      <DependentUpon>201902121852066_rename-device-id.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\DevicesRepository.cs" />
+    <Compile Include="Repositories\InboxRepository.cs" />
+    <Compile Include="Repositories\NotificationRepository.cs" />
+    <Compile Include="Repositories\RoleRepository.cs" />
+    <Compile Include="Repositories\UserRepository.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LumoTrack.Model\LumoTrack.Model.csproj">
+      <Project>{c260db86-1d72-42ce-aa61-5eda8f25489d}</Project>
+      <Name>LumoTrack.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201810302355278_Initial_migration.resx">
+      <DependentUpon>201810302355278_Initial_migration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810311811443_user_name.resx">
+      <DependentUpon>201810311811443_user_name.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810312319459_title_notification.resx">
+      <DependentUpon>201810312319459_title_notification.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201811012256142_inbox-add-model.resx">
+      <DependentUpon>201811012256142_inbox-add-model.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201811012335519_inbox_users.resx">
+      <DependentUpon>201811012335519_inbox_users.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201811090050377_nullable_datetime.resx">
+      <DependentUpon>201811090050377_nullable_datetime.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201811152000024_add-devices-table.resx">
+      <DependentUpon>201811152000024_add-devices-table.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201811152019333_key_guid.resx">
+      <DependentUpon>201811152019333_key_guid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812051938369_addin_timezone_to_device.resx">
+      <DependentUpon>201812051938369_addin_timezone_to_device.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201901100040456_add-name-lastname.resx">
+      <DependentUpon>201901100040456_add-name-lastname.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201902120833176_device-type.resx">
+      <DependentUpon>201902120833176_device-type.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201902121852066_rename-device-id.resx">
+      <DependentUpon>201902121852066_rename-device-id.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

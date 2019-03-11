@@ -1,0 +1,9 @@
+D:\Zorbek\LumoTrack\LumoTrack\LumoTrack.Repositories\bin\Release\netstandard2.0\LumoTrack.Repositories.deps.json
+D:\Zorbek\LumoTrack\LumoTrack\LumoTrack.Repositories\bin\Release\netstandard2.0\LumoTrack.Repositories.dll
+D:\Zorbek\LumoTrack\LumoTrack\LumoTrack.Repositories\bin\Release\netstandard2.0\LumoTrack.Repositories.pdb
+D:\Zorbek\LumoTrack\LumoTrack\LumoTrack.Repositories\obj\Release\netstandard2.0\LumoTrack.Repositories.csprojAssemblyReference.cache
+D:\Zorbek\LumoTrack\LumoTrack\LumoTrack.Repositories\obj\Release\netstandard2.0\LumoTrack.Repositories.csproj.CoreCompileInputs.cache
+D:\Zorbek\LumoTrack\LumoTrack\LumoTrack.Repositories\obj\Release\netstandard2.0\LumoTrack.Repositories.AssemblyInfoInputs.cache
+D:\Zorbek\LumoTrack\LumoTrack\LumoTrack.Repositories\obj\Release\netstandard2.0\LumoTrack.Repositories.AssemblyInfo.cs
+D:\Zorbek\LumoTrack\LumoTrack\LumoTrack.Repositories\obj\Release\netstandard2.0\LumoTrack.Repositories.dll
+D:\Zorbek\LumoTrack\LumoTrack\LumoTrack.Repositories\obj\Release\netstandard2.0\LumoTrack.Repositories.pdb

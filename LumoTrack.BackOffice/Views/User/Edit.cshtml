@@ -1,0 +1,95 @@
+﻿@model LumoTrack.DTO.UserEditDTO
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2>Modificar usuario</h2>
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+<div class="form-horizontal">
+    <hr />
+
+
+    <div class="form-group">
+        @Html.Label("Primer nombre", htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-5">
+            @Html.EditorFor(model => model.FirstName, new { htmlAttributes = new { @class = "form-control", @maxlength = 50 } })
+            @Html.ValidationMessageFor(model => model.FirstName, "Campo requerido", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.Label("Segundo nombre", htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-5">
+            @Html.EditorFor(model => model.SecondName, new { htmlAttributes = new { @class = "form-control", @maxlength = 50 } })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.Label("Apellido paterno", htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-5">
+            @Html.EditorFor(model => model.LastName, new { htmlAttributes = new { @class = "form-control", @maxlength = 50 } })
+            @Html.ValidationMessageFor(model => model.LastName, "Campo requerido", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.Label("Apellido materno", htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-5">
+            @Html.EditorFor(model => model.MotherLastName, new { htmlAttributes = new { @class = "form-control", @maxlength = 50 } })
+            @Html.ValidationMessageFor(model => model.MotherLastName, "Campo requerido", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.Label("Correo electrónico", htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-5">
+            @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "form-control", @maxlength = 50, @oninvalid = "this.setCustomValidity('Capture una dirección de correo electrónico válida')" } })
+            @Html.ValidationMessageFor(model => model.Email, "Campo requerido verifique la direccion de correo", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Roles, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-5">
+            @Html.DropDownListFor(model => model.Roles, new SelectList(ViewBag.Roles), new { @id = "RolesDropdown", @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.Roles, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+    @Html.HiddenFor(model => model.Id)
+
+    <div class="form-group">
+        <div class="control-label"  style="text-align:center">
+            <input type="button" id="cancelBtn" value="Cancelar" class="btn btn-cancel" style="margin: 0 1px; width:85px" />
+            <input type="submit" value="Guardar" class="btn btn-login" style="margin: 0 0 0 10px;"  />
+        </div>
+    </div>
+
+</div>
+}
+
+
+@section Scripts {
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+
+             var model =@Html.Raw(Json.Encode(Model));
+
+            $("#RolesDropdown").val(model["Roles"]).change();
+        });
+
+        $('#cancelBtn').click(function () {
+        document.location = '@Url.Action("Index","User")';
+    });
+
+    </script>
+}

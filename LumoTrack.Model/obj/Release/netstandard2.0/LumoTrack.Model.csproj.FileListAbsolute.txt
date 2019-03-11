@@ -1,0 +1,16 @@
+D:\Zorbek\LumoTrack\LumoTrack\LumoTrack.Model\bin\Release\netstandard2.0\LumoTrack.Model.deps.json
+D:\Zorbek\LumoTrack\LumoTrack\LumoTrack.Model\bin\Release\netstandard2.0\LumoTrack.Model.dll
+D:\Zorbek\LumoTrack\LumoTrack\LumoTrack.Model\bin\Release\netstandard2.0\LumoTrack.Model.pdb
+D:\Zorbek\LumoTrack\LumoTrack\LumoTrack.Model\bin\Release\netstandard2.0\Kuktrack.Integrations.Proxy.dll
+D:\Zorbek\LumoTrack\LumoTrack\LumoTrack.Model\bin\Release\netstandard2.0\LumoTrack.Common.dll
+D:\Zorbek\LumoTrack\LumoTrack\LumoTrack.Model\bin\Release\netstandard2.0\Kuktrack.Integrations.DTO.dll
+D:\Zorbek\LumoTrack\LumoTrack\LumoTrack.Model\bin\Release\netstandard2.0\LumoTrack.Common.pdb
+D:\Zorbek\LumoTrack\LumoTrack\LumoTrack.Model\bin\Release\netstandard2.0\Kuktrack.Integrations.Proxy.pdb
+D:\Zorbek\LumoTrack\LumoTrack\LumoTrack.Model\bin\Release\netstandard2.0\Kuktrack.Integrations.DTO.pdb
+D:\Zorbek\LumoTrack\LumoTrack\LumoTrack.Model\obj\Release\netstandard2.0\LumoTrack.Model.csprojAssemblyReference.cache
+D:\Zorbek\LumoTrack\LumoTrack\LumoTrack.Model\obj\Release\netstandard2.0\LumoTrack.Model.csproj.CoreCompileInputs.cache
+D:\Zorbek\LumoTrack\LumoTrack\LumoTrack.Model\obj\Release\netstandard2.0\LumoTrack.Model.AssemblyInfoInputs.cache
+D:\Zorbek\LumoTrack\LumoTrack\LumoTrack.Model\obj\Release\netstandard2.0\LumoTrack.Model.AssemblyInfo.cs
+D:\Zorbek\LumoTrack\LumoTrack\LumoTrack.Model\obj\Release\netstandard2.0\LumoTrack.Model.csproj.CopyComplete
+D:\Zorbek\LumoTrack\LumoTrack\LumoTrack.Model\obj\Release\netstandard2.0\LumoTrack.Model.dll
+D:\Zorbek\LumoTrack\LumoTrack\LumoTrack.Model\obj\Release\netstandard2.0\LumoTrack.Model.pdb

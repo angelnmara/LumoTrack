@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FirebaseNet" Version="1.0.1" />
+    <PackageReference Include="Microsoft.AspNet.Identity.Owin" Version="2.2.2" />
+    <PackageReference Include="Microsoft.Owin" Version="4.0.0" />
+    <PackageReference Include="System.ComponentModel.Annotations" Version="4.1.0" />
+    <PackageReference Include="Zorbek.Core.Security.Client" Version="2.0.9-preview" />
+    <PackageReference Include="Zorbek.Essentials.Data" Version="1.2.4.1" />
+    <PackageReference Include="Zorbek.Essentials.Std.Utilities" Version="1.3.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LumoTrack.DTO\LumoTrack.DTO.csproj" />
+    <ProjectReference Include="..\LumoTrack.Model\LumoTrack.Model.csproj" />
+    <ProjectReference Include="..\LumoTrack.ProxyContract\LumoTrack.ProxyContract.csproj" />
+    <ProjectReference Include="..\LumoTrack.Proxy\LumoTrack.Proxy.csproj" />
+    <ProjectReference Include="..\LumoTrack.Repository\LumoTrack.Repository.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="GeoCoordinate">
+      <HintPath>..\Lib\GeoCoordinate.dll</HintPath>
+    </Reference>
+    <Reference Include="Kuktrack.Integrations.DTO">
+      <HintPath>..\Lib\Kuktrack.Integrations.DTO.dll</HintPath>
+    </Reference>
+    <Reference Include="Kuktrack.Integrations.Proxy">
+      <HintPath>..\Lib\Kuktrack.Integrations.Proxy.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Configuration">
+      <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.2\System.Configuration.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

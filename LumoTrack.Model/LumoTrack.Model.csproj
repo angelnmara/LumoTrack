@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="App.config" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.ComponentModel.Annotations" Version="4.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LumoTrack.Common\LumoTrack.Common.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Kuktrack.Integrations.Proxy">
+      <HintPath>..\Lib\Kuktrack.Integrations.Proxy.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

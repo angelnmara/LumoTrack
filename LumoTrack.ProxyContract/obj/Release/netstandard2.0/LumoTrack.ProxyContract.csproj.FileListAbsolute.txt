@@ -1,0 +1,16 @@
+D:\Zorbek\LumoTrack\LumoTrack\LumoTrack.ProxyContract\bin\Release\netstandard2.0\LumoTrack.ProxyContract.deps.json
+D:\Zorbek\LumoTrack\LumoTrack\LumoTrack.ProxyContract\bin\Release\netstandard2.0\LumoTrack.ProxyContract.dll
+D:\Zorbek\LumoTrack\LumoTrack\LumoTrack.ProxyContract\bin\Release\netstandard2.0\LumoTrack.ProxyContract.pdb
+D:\Zorbek\LumoTrack\LumoTrack\LumoTrack.ProxyContract\bin\Release\netstandard2.0\Kuktrack.Integrations.DTO.dll
+D:\Zorbek\LumoTrack\LumoTrack\LumoTrack.ProxyContract\bin\Release\netstandard2.0\LumoTrack.Common.dll
+D:\Zorbek\LumoTrack\LumoTrack\LumoTrack.ProxyContract\bin\Release\netstandard2.0\LumoTrack.DTO.dll
+D:\Zorbek\LumoTrack\LumoTrack\LumoTrack.ProxyContract\bin\Release\netstandard2.0\LumoTrack.DTO.pdb
+D:\Zorbek\LumoTrack\LumoTrack\LumoTrack.ProxyContract\bin\Release\netstandard2.0\LumoTrack.Common.pdb
+D:\Zorbek\LumoTrack\LumoTrack\LumoTrack.ProxyContract\bin\Release\netstandard2.0\Kuktrack.Integrations.DTO.pdb
+D:\Zorbek\LumoTrack\LumoTrack\LumoTrack.ProxyContract\obj\Release\netstandard2.0\LumoTrack.ProxyContract.csprojAssemblyReference.cache
+D:\Zorbek\LumoTrack\LumoTrack\LumoTrack.ProxyContract\obj\Release\netstandard2.0\LumoTrack.ProxyContract.csproj.CoreCompileInputs.cache
+D:\Zorbek\LumoTrack\LumoTrack\LumoTrack.ProxyContract\obj\Release\netstandard2.0\LumoTrack.ProxyContract.AssemblyInfoInputs.cache
+D:\Zorbek\LumoTrack\LumoTrack\LumoTrack.ProxyContract\obj\Release\netstandard2.0\LumoTrack.ProxyContract.AssemblyInfo.cs
+D:\Zorbek\LumoTrack\LumoTrack\LumoTrack.ProxyContract\obj\Release\netstandard2.0\LumoTrack.ProxyContract.csproj.CopyComplete
+D:\Zorbek\LumoTrack\LumoTrack\LumoTrack.ProxyContract\obj\Release\netstandard2.0\LumoTrack.ProxyContract.dll
+D:\Zorbek\LumoTrack\LumoTrack\LumoTrack.ProxyContract\obj\Release\netstandard2.0\LumoTrack.ProxyContract.pdb

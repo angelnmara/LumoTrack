@@ -1,0 +1,68 @@
+﻿@model IEnumerable<LumoTrack.DTO.UserDTO>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<div style="display:flex;  align-items:center;margin-top: 10px;margin-bottom: 5px;">
+    <img src="~/Content/images/User.png"  style="max-width: 40px;margin:5px;height: auto;width:100%;" alt="" />
+    <span style="color:#b5261e;font-size:30px;font-weight: bold;">Usuarios</span>
+
+</div>
+
+
+<div style="margin:5px 0 10px;text-align:right ">
+    <button id="buttonId" type="button" class="btn btn-login btn-md">
+        <span class="glyphicon glyphicon-plus"></span> Nuevo usuario
+    </button>
+</div>
+
+<table class="table" >
+    <tr style="background-color:#b5261e;color:white">
+        <th>
+            Correo
+        </th>
+        <th>
+            Nombre
+        </th>
+        <th>
+            Rol
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email, new { @class = "hyperlink" })
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Fullname)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Roles)
+            </td>
+            <td style="text-align:center">
+                @Html.ActionLink("Modificar", "Edit", new { id = item.Id }) |
+                @Html.ActionLink("Eliminar", "Delete", new { id = item.Id }) |
+                @Html.ActionLink("Cambiar Contraseña", "ChangePassword", new { id = item.Id })
+            </td>
+        </tr>
+    }
+
+</table>
+
+@section Scripts {
+
+    <script type="text/javascript">
+    $('#buttonId').click(function () {
+        document.location = '@Url.Action("Create","User")';
+        });
+
+        $(document).ready(function () {
+            $('ul.nav.navbar-nav').find('a[href="' + location.pathname + '"]')
+                .closest('li').addClass('active');
+        });
+    </script>
+}

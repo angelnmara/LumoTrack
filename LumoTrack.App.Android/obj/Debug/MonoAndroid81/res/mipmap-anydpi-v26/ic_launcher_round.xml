@@ -1,0 +1,1 @@
+<adaptive-icon xmlns:android="@mipmap/icon"><background android:drawable="@color/Background" /><foreground android:drawable="@mipmap/icon" /></adaptive-icon>

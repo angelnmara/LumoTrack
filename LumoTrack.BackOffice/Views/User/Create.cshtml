@@ -1,0 +1,95 @@
+﻿@model LumoTrack.DTO.UserDTO
+
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Crear usuario</h2>
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+<div class="form-horizontal">
+    <hr />
+
+
+
+    <div class="form-group">
+        @Html.Label("Primer nombre", htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-5">
+            @Html.EditorFor(model => model.FirstName, new { htmlAttributes = new { @class = "form-control", @maxlength = 50 } })
+            @Html.ValidationMessageFor(model => model.FirstName, "Campo requerido", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.Label("Segundo nombre", htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-5">
+            @Html.EditorFor(model => model.SecondName, new { htmlAttributes = new { @class = "form-control", @maxlength = 50 } })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.Label("Apellido paterno", htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-5">
+            @Html.EditorFor(model => model.LastName, new { htmlAttributes = new { @class = "form-control", @maxlength = 50 } })
+            @Html.ValidationMessageFor(model => model.LastName, "Campo requerido", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.Label("Apellido materno", htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-5">
+            @Html.EditorFor(model => model.MotherLastName, new { htmlAttributes = new { @class = "form-control", @maxlength = 50 } })
+            @Html.ValidationMessageFor(model => model.MotherLastName, "Campo requerido", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.Label("Correo electrónico", htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-5">
+            @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.Email, "Campo requerido verifique la direccion de correo", new { @class = "text-danger" })
+            @Html.ValidationMessage("Email", new { @class = "text-danger" })
+        </div>
+    </div>
+
+
+    <div class="form-group">
+        @Html.Label("Contraseña", htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-5">
+            @Html.PasswordFor(model => model.Password, new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.Password, "Campo requerido", new { @class = "text-danger" })
+            <em class="text-danger" style="color:#708090">Es necesario que la contraseña contenga: Mayúscula, minúscula, número y símbolo. Con al menos 8 caracteres. <br />Ejemplo: Siguetucamion@123</em>
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.Label("Rol", htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-5">
+            @Html.DropDownListFor(model => model.Roles, new SelectList(ViewBag.Roles, "Roles"), new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.Roles, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    <div class="form-group">
+        <div class="control-label " style="text-align:center">
+            <input type="button" id="cancelBtn" value="Cancelar" class="btn btn-cancel" style="margin: 0 1px; width:85px" />
+            <input type="submit" value="Crear" class="btn btn-login" style="margin: 0 0 0 10px;"/>
+        </div>
+    </div>
+
+
+</div>
+}
+
+@section Scripts {
+    <script type="text/javascript">
+        $('#cancelBtn').click(function () {
+        document.location = '@Url.Action("Index","User")';
+    });
+
+    </script>
+}

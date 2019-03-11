@@ -1,0 +1,97 @@
+﻿@model LumoTrack.DTO.NotificationDTO
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2>Modificar notificación</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+<div class="form-horizontal">
+    <hr />
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+    <div class="form-group">
+        @Html.Label("Título", htmlAttributes: new { @class = "control-label col-md-2", })
+        <div class="col-sm-10">
+            @Html.EditorFor(model => model.Title, new { htmlAttributes = new { @class = "form-control", @maxlength = 50 } })
+            @Html.ValidationMessageFor(model => model.Title, "Campo requerido", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.Label("Fecha de notificación", htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-sm-2">
+            @Html.EditorFor(model => model.NotificationDate, new { htmlAttributes = new { @Value = Model.NotificationDate.ToString("dd/MM/yyyy"), @class = "form-control datepicker col-md-3", @placeholder = "dd/mm/yyyy", @style = "max-width:280px" } })
+            @Html.ValidationMessageFor(model => model.NotificationDate, "Campo requerido", new { @class = "text-danger" })
+        </div>
+
+        @Html.Label("Fecha de vencimiento", htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-sm-2">
+            @Html.EditorFor(model => model.ExpiryDate, new { htmlAttributes = new { @Value = Model.ExpiryDate.ToString("dd/MM/yyyy"), @class = "form-control datepicker col-md-3", @placeholder = "dd/mm/yyyy", @style = "max-width:280px" } })
+            @Html.ValidationMessageFor(model => model.ExpiryDate, "Campo requerido", new { @class = "text-danger" })
+        </div>
+
+        @Html.Label("Importante", htmlAttributes: new { @class = "control-label col-md-1" })
+        <div class="col-md-1">
+            <div class="material-switch pull-left">
+                <input id="Important" class="form-control check-box" name="Important" value="true" type="checkbox" />
+                <label for="Important" class="label-primary"></label>
+            </div>
+        </div>
+
+    </div>
+
+
+    @Html.HiddenFor(x => x.CreationDate)
+
+    <div class="form-group">
+        @Html.Label("Mensaje", htmlAttributes: new { @class = "control-label col-md-2 " })
+        <div class="col-sm-10">
+            @Html.TextAreaFor(m => m.Message, new { @class = "form-control", @style = "max-width:920px;width:920px;height:100px;" })
+            @Html.ValidationMessageFor(model => model.Message, "Campo requerido", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class=" control-label" style="text-align:right">
+            <input type="button" id="cancelBtn" value="Cancelar" class="btn btn-cancel" style="margin: 0 1px; width:85px" />
+            <input id="submidButton" type="submit" value="Modificar" class="btn btn-login" style="margin: 0 0 0 10px;" />
+        </div>
+    </div>
+
+
+
+
+</div>
+}
+
+@section Scripts {
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(".datepicker").datepicker({
+                altFormat: "dd/mm/yy",
+                dateFormat: "dd/mm/yy"
+            });
+         $(".datepicker").attr("autocomplete", "off");
+            var model =@Html.Raw(Json.Encode(Model));
+
+            $("#Important").attr('checked', model["Important"])
+
+        });
+
+        $('#cancelBtn').click(function () {
+        document.location = '@Url.Action("Index","Notification")';
+        });
+
+        $("#submidButton").click(function () {
+            console.log("Log")
+            document.getElementById("submidButton").disabled = true;
+            $("form").submit();
+        })
+    </script>
+}
