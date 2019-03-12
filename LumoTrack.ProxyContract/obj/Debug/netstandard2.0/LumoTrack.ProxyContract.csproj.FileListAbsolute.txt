@@ -1,0 +1,16 @@
+C:\dave\Lumo\MovilLumo\trunk\LumoTrack\LumoTrack.ProxyContract\bin\Debug\netstandard2.0\LumoTrack.ProxyContract.deps.json
+C:\dave\Lumo\MovilLumo\trunk\LumoTrack\LumoTrack.ProxyContract\bin\Debug\netstandard2.0\LumoTrack.ProxyContract.dll
+C:\dave\Lumo\MovilLumo\trunk\LumoTrack\LumoTrack.ProxyContract\bin\Debug\netstandard2.0\LumoTrack.ProxyContract.pdb
+C:\dave\Lumo\MovilLumo\trunk\LumoTrack\LumoTrack.ProxyContract\bin\Debug\netstandard2.0\Kuktrack.Integrations.DTO.dll
+C:\dave\Lumo\MovilLumo\trunk\LumoTrack\LumoTrack.ProxyContract\bin\Debug\netstandard2.0\LumoTrack.Common.dll
+C:\dave\Lumo\MovilLumo\trunk\LumoTrack\LumoTrack.ProxyContract\bin\Debug\netstandard2.0\LumoTrack.DTO.dll
+C:\dave\Lumo\MovilLumo\trunk\LumoTrack\LumoTrack.ProxyContract\bin\Debug\netstandard2.0\LumoTrack.DTO.pdb
+C:\dave\Lumo\MovilLumo\trunk\LumoTrack\LumoTrack.ProxyContract\bin\Debug\netstandard2.0\LumoTrack.Common.pdb
+C:\dave\Lumo\MovilLumo\trunk\LumoTrack\LumoTrack.ProxyContract\bin\Debug\netstandard2.0\Kuktrack.Integrations.DTO.pdb
+C:\dave\Lumo\MovilLumo\trunk\LumoTrack\LumoTrack.ProxyContract\obj\Debug\netstandard2.0\LumoTrack.ProxyContract.csprojAssemblyReference.cache
+C:\dave\Lumo\MovilLumo\trunk\LumoTrack\LumoTrack.ProxyContract\obj\Debug\netstandard2.0\LumoTrack.ProxyContract.csproj.CoreCompileInputs.cache
+C:\dave\Lumo\MovilLumo\trunk\LumoTrack\LumoTrack.ProxyContract\obj\Debug\netstandard2.0\LumoTrack.ProxyContract.AssemblyInfoInputs.cache
+C:\dave\Lumo\MovilLumo\trunk\LumoTrack\LumoTrack.ProxyContract\obj\Debug\netstandard2.0\LumoTrack.ProxyContract.AssemblyInfo.cs
+C:\dave\Lumo\MovilLumo\trunk\LumoTrack\LumoTrack.ProxyContract\obj\Debug\netstandard2.0\LumoTrack.ProxyContract.csproj.CopyComplete
+C:\dave\Lumo\MovilLumo\trunk\LumoTrack\LumoTrack.ProxyContract\obj\Debug\netstandard2.0\LumoTrack.ProxyContract.dll
+C:\dave\Lumo\MovilLumo\trunk\LumoTrack\LumoTrack.ProxyContract\obj\Debug\netstandard2.0\LumoTrack.ProxyContract.pdb

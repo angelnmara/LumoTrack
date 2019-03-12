@@ -1,0 +1,4 @@
+C:\dave\Lumo\MovilLumo\trunk\LumoTrack\LumoTrack.Business\obj\Debug\net451\LumoTrack.Business.csprojAssemblyReference.cache
+C:\dave\Lumo\MovilLumo\trunk\LumoTrack\LumoTrack.Business\obj\Debug\net451\LumoTrack.Business.csproj.CoreCompileInputs.cache
+C:\dave\Lumo\MovilLumo\trunk\LumoTrack\LumoTrack.Business\obj\Debug\net451\LumoTrack.Business.AssemblyInfoInputs.cache
+C:\dave\Lumo\MovilLumo\trunk\LumoTrack\LumoTrack.Business\obj\Debug\net451\LumoTrack.Business.AssemblyInfo.cs

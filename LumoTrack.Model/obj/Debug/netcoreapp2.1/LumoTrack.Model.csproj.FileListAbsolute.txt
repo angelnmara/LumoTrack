@@ -1,0 +1,6 @@
+C:\dave\Lumo\MovilLumo\trunk\LumoTrack\LumoTrack.Model\obj\Debug\netcoreapp2.1\LumoTrack.Model.csprojAssemblyReference.cache
+C:\dave\Lumo\MovilLumo\trunk\LumoTrack\LumoTrack.Model\obj\Debug\netcoreapp2.1\LumoTrack.Model.Properties.Resources.resources
+C:\dave\Lumo\MovilLumo\trunk\LumoTrack\LumoTrack.Model\obj\Debug\netcoreapp2.1\LumoTrack.Model.csproj.GenerateResource.cache
+C:\dave\Lumo\MovilLumo\trunk\LumoTrack\LumoTrack.Model\obj\Debug\netcoreapp2.1\LumoTrack.Model.csproj.CoreCompileInputs.cache
+C:\dave\Lumo\MovilLumo\trunk\LumoTrack\LumoTrack.Model\obj\Debug\netcoreapp2.1\LumoTrack.Model.AssemblyInfoInputs.cache
+C:\dave\Lumo\MovilLumo\trunk\LumoTrack\LumoTrack.Model\obj\Debug\netcoreapp2.1\LumoTrack.Model.AssemblyInfo.cs

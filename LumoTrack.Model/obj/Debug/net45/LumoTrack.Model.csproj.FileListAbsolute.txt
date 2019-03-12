@@ -1,0 +1,17 @@
+C:\dave\Lumo\MovilLumo\trunk\LumoTrack\LumoTrack.Model\bin\Debug\net45\LumoTrack.Model.dll
+C:\dave\Lumo\MovilLumo\trunk\LumoTrack\LumoTrack.Model\bin\Debug\net45\LumoTrack.Model.pdb
+C:\dave\Lumo\MovilLumo\trunk\LumoTrack\LumoTrack.Model\bin\Debug\net45\EntityFramework.SqlServer.dll
+C:\dave\Lumo\MovilLumo\trunk\LumoTrack\LumoTrack.Model\bin\Debug\net45\EntityFramework.dll
+C:\dave\Lumo\MovilLumo\trunk\LumoTrack\LumoTrack.Model\bin\Debug\net45\Microsoft.AspNet.Identity.Core.dll
+C:\dave\Lumo\MovilLumo\trunk\LumoTrack\LumoTrack.Model\bin\Debug\net45\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\dave\Lumo\MovilLumo\trunk\LumoTrack\LumoTrack.Model\bin\Debug\net45\LumoTrack.Common.dll
+C:\dave\Lumo\MovilLumo\trunk\LumoTrack\LumoTrack.Model\bin\Debug\net45\LumoTrack.Common.pdb
+C:\dave\Lumo\MovilLumo\trunk\LumoTrack\LumoTrack.Model\obj\Debug\net45\LumoTrack.Model.csprojAssemblyReference.cache
+C:\dave\Lumo\MovilLumo\trunk\LumoTrack\LumoTrack.Model\obj\Debug\net45\LumoTrack.Model.Properties.Resources.resources
+C:\dave\Lumo\MovilLumo\trunk\LumoTrack\LumoTrack.Model\obj\Debug\net45\LumoTrack.Model.csproj.GenerateResource.cache
+C:\dave\Lumo\MovilLumo\trunk\LumoTrack\LumoTrack.Model\obj\Debug\net45\LumoTrack.Model.csproj.CoreCompileInputs.cache
+C:\dave\Lumo\MovilLumo\trunk\LumoTrack\LumoTrack.Model\obj\Debug\net45\LumoTrack.Model.AssemblyInfoInputs.cache
+C:\dave\Lumo\MovilLumo\trunk\LumoTrack\LumoTrack.Model\obj\Debug\net45\LumoTrack.Model.AssemblyInfo.cs
+C:\dave\Lumo\MovilLumo\trunk\LumoTrack\LumoTrack.Model\obj\Debug\net45\LumoTrack.Model.csproj.CopyComplete
+C:\dave\Lumo\MovilLumo\trunk\LumoTrack\LumoTrack.Model\obj\Debug\net45\LumoTrack.Model.dll
+C:\dave\Lumo\MovilLumo\trunk\LumoTrack\LumoTrack.Model\obj\Debug\net45\LumoTrack.Model.pdb

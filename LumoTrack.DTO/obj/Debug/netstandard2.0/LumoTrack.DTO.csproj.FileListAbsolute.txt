@@ -1,0 +1,12 @@
+C:\dave\Lumo\MovilLumo\trunk\LumoTrack\LumoTrack.DTO\bin\Debug\netstandard2.0\LumoTrack.DTO.deps.json
+C:\dave\Lumo\MovilLumo\trunk\LumoTrack\LumoTrack.DTO\bin\Debug\netstandard2.0\LumoTrack.DTO.dll
+C:\dave\Lumo\MovilLumo\trunk\LumoTrack\LumoTrack.DTO\bin\Debug\netstandard2.0\LumoTrack.DTO.pdb
+C:\dave\Lumo\MovilLumo\trunk\LumoTrack\LumoTrack.DTO\bin\Debug\netstandard2.0\LumoTrack.Common.dll
+C:\dave\Lumo\MovilLumo\trunk\LumoTrack\LumoTrack.DTO\bin\Debug\netstandard2.0\LumoTrack.Common.pdb
+C:\dave\Lumo\MovilLumo\trunk\LumoTrack\LumoTrack.DTO\obj\Debug\netstandard2.0\LumoTrack.DTO.csprojAssemblyReference.cache
+C:\dave\Lumo\MovilLumo\trunk\LumoTrack\LumoTrack.DTO\obj\Debug\netstandard2.0\LumoTrack.DTO.csproj.CoreCompileInputs.cache
+C:\dave\Lumo\MovilLumo\trunk\LumoTrack\LumoTrack.DTO\obj\Debug\netstandard2.0\LumoTrack.DTO.AssemblyInfoInputs.cache
+C:\dave\Lumo\MovilLumo\trunk\LumoTrack\LumoTrack.DTO\obj\Debug\netstandard2.0\LumoTrack.DTO.AssemblyInfo.cs
+C:\dave\Lumo\MovilLumo\trunk\LumoTrack\LumoTrack.DTO\obj\Debug\netstandard2.0\LumoTrack.DTO.csproj.CopyComplete
+C:\dave\Lumo\MovilLumo\trunk\LumoTrack\LumoTrack.DTO\obj\Debug\netstandard2.0\LumoTrack.DTO.dll
+C:\dave\Lumo\MovilLumo\trunk\LumoTrack\LumoTrack.DTO\obj\Debug\netstandard2.0\LumoTrack.DTO.pdb

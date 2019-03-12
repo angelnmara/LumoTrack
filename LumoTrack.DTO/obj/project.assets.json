@@ -267,7 +267,7 @@
   },
   "libraries": {
     "Microsoft.NETCore.Platforms/1.1.0": {
-      "sha512": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "sha512": "bLpT1f/SFlO1CzqXG12KnJzpZs6lv24uX2Rzi4Fmm0noJpNlnWRVryuO3yK18Ca04t/YHcO1e1Z0WDfjseqNzw==",
       "type": "package",
       "path": "microsoft.netcore.platforms/1.1.0",
       "files": [
@@ -282,11 +282,12 @@
       ]
     },
     "Microsoft.NETCore.Targets/1.0.1": {
-      "sha512": "rkn+fKobF/cbWfnnfBOQHKVKIOpxMZBvlSHkqDWgBpwGDcLRduvs3D9OLGeV6GWGvVwNlVi2CBbTjuPmtHvyNw==",
+      "sha512": "uoCrgIGGKOGgZcw9rv+LHPFAUtVvJC5JUhMrYNQjg9tiNJpdvj3Z7K9RiDEoI6xm79pYuDHi537R+SXCb6y8oQ==",
       "type": "package",
       "path": "microsoft.netcore.targets/1.0.1",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/_._",
@@ -1630,23 +1631,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\chaid\\.nuget\\packages\\": {},
+    "C:\\Users\\daver\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Zorbek\\LumoTrack\\LumoTrack\\LumoTrack.DTO\\LumoTrack.DTO.csproj",
+      "projectUniqueName": "C:\\dave\\Lumo\\MovilLumo\\trunk\\LumoTrack\\LumoTrack.DTO\\LumoTrack.DTO.csproj",
       "projectName": "LumoTrack.DTO",
-      "projectPath": "D:\\Zorbek\\LumoTrack\\LumoTrack\\LumoTrack.DTO\\LumoTrack.DTO.csproj",
-      "packagesPath": "C:\\Users\\chaid\\.nuget\\packages\\",
-      "outputPath": "D:\\Zorbek\\LumoTrack\\LumoTrack\\LumoTrack.DTO\\obj\\",
+      "projectPath": "C:\\dave\\Lumo\\MovilLumo\\trunk\\LumoTrack\\LumoTrack.DTO\\LumoTrack.DTO.csproj",
+      "packagesPath": "C:\\Users\\daver\\.nuget\\packages\\",
+      "outputPath": "C:\\dave\\Lumo\\MovilLumo\\trunk\\LumoTrack\\LumoTrack.DTO\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\chaid\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\daver\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1654,14 +1655,13 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "http://camilledata.cloudapp.net/ZorbekPackages/nuget/": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "D:\\Zorbek\\LumoTrack\\LumoTrack\\LumoTrack.Common\\LumoTrack.Common.csproj": {
-              "projectPath": "D:\\Zorbek\\LumoTrack\\LumoTrack\\LumoTrack.Common\\LumoTrack.Common.csproj"
+            "C:\\dave\\Lumo\\MovilLumo\\trunk\\LumoTrack\\LumoTrack.Common\\LumoTrack.Common.csproj": {
+              "projectPath": "C:\\dave\\Lumo\\MovilLumo\\trunk\\LumoTrack\\LumoTrack.Common\\LumoTrack.Common.csproj"
             }
           }
         }

@@ -1,0 +1,8 @@
+C:\dave\Lumo\MovilLumo\trunk\LumoTrack\LumoTrack.Common\bin\Debug\netstandard2.0\LumoTrack.Common.deps.json
+C:\dave\Lumo\MovilLumo\trunk\LumoTrack\LumoTrack.Common\bin\Debug\netstandard2.0\LumoTrack.Common.dll
+C:\dave\Lumo\MovilLumo\trunk\LumoTrack\LumoTrack.Common\bin\Debug\netstandard2.0\LumoTrack.Common.pdb
+C:\dave\Lumo\MovilLumo\trunk\LumoTrack\LumoTrack.Common\obj\Debug\netstandard2.0\LumoTrack.Common.csproj.CoreCompileInputs.cache
+C:\dave\Lumo\MovilLumo\trunk\LumoTrack\LumoTrack.Common\obj\Debug\netstandard2.0\LumoTrack.Common.AssemblyInfoInputs.cache
+C:\dave\Lumo\MovilLumo\trunk\LumoTrack\LumoTrack.Common\obj\Debug\netstandard2.0\LumoTrack.Common.AssemblyInfo.cs
+C:\dave\Lumo\MovilLumo\trunk\LumoTrack\LumoTrack.Common\obj\Debug\netstandard2.0\LumoTrack.Common.dll
+C:\dave\Lumo\MovilLumo\trunk\LumoTrack\LumoTrack.Common\obj\Debug\netstandard2.0\LumoTrack.Common.pdb
