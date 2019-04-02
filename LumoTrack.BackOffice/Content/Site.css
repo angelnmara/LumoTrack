@@ -40,20 +40,26 @@ body {
 
 .btn-login {
     color: #ffffff;
-    background-color: #b5261e;
-    border-color: #b5261e;
+    /*background-color: #ffce00;
+    border-color: #ffce00;*/
+    background-color: #ffce00;
+    border-color: #ffce00;
 }
 
-.btn-login:hover,
+    .btn-login:hover,
     .btn-login.hover {
         color: white;
-        background-color: #57101f;
-        border-color: #57101f;
+        /*background-color: #4f420f;
+        border-color: #4f420f;*/
+        background-color: #ffce00;
+        border-color: #ffce00;
     }
 
- .btn-login:focus {
-        background-color: #57101f;
-        border-color: #57101f;
+    .btn-login:focus {
+        /*background-color: #4f420f;
+        border-color: #4f420f;*/
+        background-color: #ffce00;
+        border-color: #ffce00; 
         color: white;
     }
 

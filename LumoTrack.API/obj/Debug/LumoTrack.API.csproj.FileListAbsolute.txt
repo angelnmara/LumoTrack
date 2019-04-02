@@ -147,7 +147,6 @@ C:\dave\Lumo\MovilLumo\trunk\LumoTrack\LumoTrack.API\bin\System.Xml.XPath.XDocum
 C:\dave\Lumo\MovilLumo\trunk\LumoTrack\LumoTrack.API\bin\Antlr3.Runtime.dll
 C:\dave\Lumo\MovilLumo\trunk\LumoTrack\LumoTrack.API\bin\EntityFramework.dll
 C:\dave\Lumo\MovilLumo\trunk\LumoTrack\LumoTrack.API\bin\EntityFramework.SqlServer.dll
-C:\dave\Lumo\MovilLumo\trunk\LumoTrack\LumoTrack.API\bin\Kuktrack.Integrations.DTO.dll
 C:\dave\Lumo\MovilLumo\trunk\LumoTrack\LumoTrack.API\bin\LumoTrack.Business.dll
 C:\dave\Lumo\MovilLumo\trunk\LumoTrack\LumoTrack.API\bin\LumoTrack.DTO.dll
 C:\dave\Lumo\MovilLumo\trunk\LumoTrack\LumoTrack.API\bin\Microsoft.AI.Agent.Intercept.dll
